@@ -20,12 +20,15 @@ public class Bibliotech {
     {
         if (ConexaoBD.getInstance().getConnection() != null)
         {
+<<<<<<< HEAD
         new FrmPrincipalLogin().setVisible(true); 
+=======
+            new FrmPrincipal().setVisible(true); 
+>>>>>>> af02c6c (Ajustes)
         }
         else
         {
             JOptionPane.showMessageDialog(null, "Erro ao conectar no Banco de Dados!");
-            
         }
         
     }
