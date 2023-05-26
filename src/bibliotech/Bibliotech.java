@@ -3,10 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package bibliotech;
-
 import java.sql.*;
 import javax.swing.JOptionPane;
-import tela.FrmPrincipal;
+import tela.FrmPrincipalLogin;
 import apoio.ConexaoBD;
 
 /**
@@ -21,7 +20,7 @@ public class Bibliotech {
     {
         if (ConexaoBD.getInstance().getConnection() != null)
         {
-        new FrmPrincipal().setVisible(true); 
+        new FrmPrincipalLogin().setVisible(true); 
         }
         else
         {
