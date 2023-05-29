@@ -7,6 +7,7 @@ import java.sql.*;
 import javax.swing.JOptionPane;
 import tela.FrmPrincipalLogin;
 import apoio.ConexaoBD;
+import tela.FrmTelaInicial;
 
 /**
  *
@@ -20,11 +21,14 @@ public class Bibliotech {
     {
         if (ConexaoBD.getInstance().getConnection() != null)
         {
-<<<<<<< HEAD
-        new FrmPrincipalLogin().setVisible(true); 
-=======
-            new FrmPrincipal().setVisible(true); 
->>>>>>> af02c6c (Ajustes)
+//<<<<<<< HEAD
+//        new FrmPrincipalLogin().setVisible(true); 
+//=======
+//            new FrmPrincipal().setVisible(true); 
+//>>>>>>> af02c6c (Ajustes)
+            new FrmTelaInicial().setVisible(true);
+            
+            
         }
         else
         {
