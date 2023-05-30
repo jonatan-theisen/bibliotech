@@ -50,6 +50,8 @@ public class IfrObras extends javax.swing.JInternalFrame {
         jLabel8 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
 
+        setTitle("Obras");
+
         jButton1.setText("Sair");
 
         jButton2.setText("Salvar");

@@ -46,6 +46,8 @@ public class IfrClientes extends javax.swing.JInternalFrame {
         jLabel8 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
 
+        setTitle("Clientes");
+
         jButton1.setText("Sair");
 
         jButton2.setText("Salvar");
